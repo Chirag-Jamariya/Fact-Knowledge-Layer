@@ -1,0 +1,5081 @@
+{
+  "documents": [
+    {
+      "doc_id": "681147f79058",
+      "filename": "03-imf-india-2025-article-iv-excerpt.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/india-macroeconomy/03-imf-india-2025-article-iv-excerpt.pdf",
+      "total_pages": 95,
+      "checksum_sha256": "f6d3cfecafd9548920349b29b1137d645c20073434d0ac66485ead9738a0ea4d",
+      "ingested_at": "2026-09-09 04:22:33.264312",
+      "metadata": {
+        "parsed_pages": 95,
+        "total_tables_extracted": 14,
+        "total_images_extracted": 34,
+        "corpus_label": "Indian Economy"
+      }
+    },
+    {
+      "doc_id": "9135723b3361",
+      "filename": "02-rbi-annual-report-2024-25-excerpt.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/india-macroeconomy/02-rbi-annual-report-2024-25-excerpt.pdf",
+      "total_pages": 100,
+      "checksum_sha256": "73209a2caa2f5671f2feae065d01602302daaaac9e8230c9c471d99243fd079e",
+      "ingested_at": "2026-09-09 04:22:00.030004",
+      "metadata": {
+        "parsed_pages": 100,
+        "total_tables_extracted": 152,
+        "total_images_extracted": 0,
+        "corpus_label": "Indian Economy"
+      }
+    },
+    {
+      "doc_id": "ac43a70d53fe",
+      "filename": "01-india-economic-survey-2024-25-excerpt.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/india-macroeconomy/01-india-economic-survey-2024-25-excerpt.pdf",
+      "total_pages": 89,
+      "checksum_sha256": "86f2e79a3b7b4a3698907897297b9e17fe06d39c074d52e68303066d18a2cf71",
+      "ingested_at": "2026-09-09 04:21:31.632438",
+      "metadata": {
+        "parsed_pages": 89,
+        "total_tables_extracted": 119,
+        "total_images_extracted": 12,
+        "corpus_label": "Indian Economy"
+      }
+    },
+    {
+      "doc_id": "f0c6302979f9",
+      "filename": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/delhivery/03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "total_pages": 27,
+      "checksum_sha256": "5ca307085c96c1fcbfd2d99a7ad40dcbd8958079b3833063520e4e84fdded2a8",
+      "ingested_at": "2026-09-09 04:21:09.700837",
+      "metadata": {
+        "parsed_pages": 27,
+        "total_tables_extracted": 39,
+        "total_images_extracted": 11,
+        "corpus_label": "Delhivery Limited"
+      }
+    },
+    {
+      "doc_id": "ec6bca6f1466",
+      "filename": "02-delhivery-annual-report-fy24-excerpt.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/delhivery/02-delhivery-annual-report-fy24-excerpt.pdf",
+      "total_pages": 100,
+      "checksum_sha256": "de6d79adc0667d66f5415fa4fcec4b485a19073744adce44dfca3e34e529fa7a",
+      "ingested_at": "2026-09-09 04:21:01.931352",
+      "metadata": {
+        "parsed_pages": 100,
+        "total_tables_extracted": 92,
+        "total_images_extracted": 58,
+        "corpus_label": "Delhivery Limited"
+      }
+    },
+    {
+      "doc_id": "b814f4b9b071",
+      "filename": "01-delhivery-prospectus-2022-excerpt.pdf",
+      "file_path": "/home/hot-coffee/Downloads/starter-datasets/delhivery/01-delhivery-prospectus-2022-excerpt.pdf",
+      "total_pages": 100,
+      "checksum_sha256": "0d7e71e1766ef33063e52a2140936fbe400c2950e58e93489d031be0b19d8ce7",
+      "ingested_at": "2026-09-09 04:20:14.804219",
+      "metadata": {
+        "parsed_pages": 100,
+        "total_tables_extracted": 190,
+        "total_images_extracted": 14,
+        "corpus_label": "Delhivery Limited"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "df2ab354e4f78244",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "0.34 INR Cr",
+      "raw_value": "0.34",
+      "context": {
+        "temporal_period": "2019",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 45,
+        "section_title": "Page 45",
+        "content_type": "text",
+        "verbatim_quote": "The following table provides our revenue by service for Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine month periods ended December 31, 2020 and 2021: Fiscal 2019 Fiscal 2020 Fiscal 2021 Nine months period ended December 31, 2020 Nine months period ended December 31, 2021 (\u20b9 in million) % of rev",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "0eb9a13e9993d59f",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "12billion",
+      "raw_value": "12",
+      "context": {
+        "temporal_period": "2026",
+        "reporting_scope": null,
+        "unit": "billion",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 46,
+        "section_title": "Page 46",
+        "content_type": "text",
+        "verbatim_quote": "As per the RedSeer Report, which has been exclusively commissioned and paid for by us in connection with the Offer, the express parcel delivery segment, which is mostly catered to by organized players, is expected to grow at a CAGR of approximately 28-31% by value to US$10-12 billion by Fiscal 2026.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "f8f0f6ad07080e3c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "406.51million",
+      "raw_value": "406.51",
+      "context": {
+        "temporal_period": "2021",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 47,
+        "section_title": "Page 47",
+        "content_type": "text",
+        "verbatim_quote": "period ended December 31, 2021, we delivered 406.51 million shipments. Our customers include e- used our express parcel delivery services.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "880a31302882a686",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "3.29million",
+      "raw_value": "3.29",
+      "context": {
+        "temporal_period": "2019",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 47,
+        "section_title": "Page 47",
+        "content_type": "text",
+        "verbatim_quote": "that has increased from approximately 0.80 million parcels during Fiscal 2019 to 3.29 million parcels for the Our express parcel delivery network, which serviced 17,488 PIN codes for the nine months period ended",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "4c786e42c3278c90",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "PTL Freight Volume",
+      "value": "373,854 tonnes",
+      "raw_value": "373,854",
+      "context": {
+        "temporal_period": "2021",
+        "reporting_scope": null,
+        "unit": "tonnes",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 48,
+        "section_title": "Page 48",
+        "content_type": "text",
+        "verbatim_quote": "volume. In Fiscal 2021, we delivered 373,854 tonnes of freight, growing at a CAGR of 75% between Fiscal We acquired Spoton in August 2021 to further scale our PTL freight services business. Spoton delivered",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "542c0d3c29c8f2a7",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "35.75million",
+      "raw_value": "35.75",
+      "context": {
+        "temporal_period": "2021",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 55,
+        "section_title": "Page 55",
+        "content_type": "text",
+        "verbatim_quote": "million express parcel orders, carried 438,795 tonnes of PTL freight, processed 35.75 million orders through our",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "9684b858bf55c43e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "11.35%",
+      "raw_value": "11.35",
+      "context": {
+        "temporal_period": "2019",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 56,
+        "section_title": "Page 56",
+        "content_type": "text",
+        "verbatim_quote": "Our Adjusted EBITDA margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "cac9d0e9d13f612a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "11.35%",
+      "raw_value": "11.35",
+      "context": {
+        "temporal_period": "2019",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 59,
+        "section_title": "Page 59",
+        "content_type": "text",
+        "verbatim_quote": "Our Adjusted EBITDA Margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to (6.95%) in Fiscal 2021 and from (8.06%) for the nine months period ended December 31, 2020 to (0.72%) for the nine months period ended December 31, 2021.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "521b8a42bee42193",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "1billion",
+      "raw_value": "1",
+      "context": {
+        "temporal_period": "2021",
+        "reporting_scope": null,
+        "unit": "billion",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-delhivery-prospectus-2022-excerpt.pdf",
+        "page_number": 74,
+        "section_title": "Page 74",
+        "content_type": "text",
+        "verbatim_quote": "1 billion express parcel shipments delivered since incorporation",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "59715c44edfea305",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.4%",
+      "raw_value": "6.4",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 4,
+        "section_title": "Page 4",
+        "content_type": "text",
+        "verbatim_quote": "grow by 6.4 per cent in FY25. Growth in the first half of FY25 was supported by",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "e2591773b4d5daf6",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Global Economic Growth",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2023",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "1.3\t Nonetheless, global economic growth has remained fairly moderate. The global economy grew by 3.3 per cent in 2023. The International Monetary Fund (IMF) has",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "47a07e19393cd664",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Global Economic Growth",
+      "value": "3.2%",
+      "raw_value": "3.2",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "Over the next five years, global growth is expected to average around 3.2 per cent, which is modest by historical standards.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "62560a7347244c9d",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Global Economic Growth",
+      "value": "-24%",
+      "raw_value": "-24",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "State of the Economy 3 .1: Resilient global growth trends in 2024 .2: Steady growth outlook across country groups 3.3 3.1 3.2 0 1 2 3 4 5 Mar-22 Jun-22 Sep-22 Dec-22 Mar-23 Jun-23 Sep-23 Dec-23 Mar-24 Jun-24 Sep-24 Per cent World growth 3.3 1.7 4.4 3.2 1.7 4.2 3.3 1.9 4.2 World AEs EMDEs Growth (%) ",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "3a704e4c1f08a9bf",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.2%",
+      "raw_value": "6.2",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 14,
+        "section_title": "Page 14",
+        "content_type": "text",
+        "verbatim_quote": "in FY25. The industrial sector is estimated to grow by 6.2 per cent in FY25. Strong",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "c508df1b5482c6c7",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "7.3%",
+      "raw_value": "7.3",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 14,
+        "section_title": "Page 14",
+        "content_type": "text",
+        "verbatim_quote": "From the angle of aggregate demand in the economy, private final consumption expenditure at constant prices is estimated to grow by 7.3 per cent, driven by a rebound in rural demand.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "ec1b0f216f050231",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.4%",
+      "raw_value": "6.4",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 14,
+        "section_title": "Page 14",
+        "content_type": "text",
+        "verbatim_quote": "1.23\tOn the supply side, real gross value added (GVA) is also estimated to grow by 6.4 per cent.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "c0e17154433a53f2",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.0%",
+      "raw_value": "6.0",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 20,
+        "section_title": "Page 20",
+        "content_type": "text",
+        "verbatim_quote": "This implied a real GDP growth of 6.0 per cent in the first half of the current fiscal. .29: GDP growth in H1 FY25 at 6.0 per cent .30: Highest share of private consumption in H1 across all years -20 -15 -10 -5 0 5 10 15 20 0 10 20 30 40 50 60 70 80 90 100 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 FY20 FY21 ",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "4dca35d0d1d96466",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "7.5%",
+      "raw_value": "7.5",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 28,
+        "section_title": "Page 28",
+        "content_type": "text",
+        "verbatim_quote": "and vagaries in weather conditions. Food inflation, measured by the Consumer Food Price Index (CFPI), has increased from 7.5 per cent in FY24 to 8.4 per cent in FY25",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "4ac0facac0514887",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "2%",
+      "raw_value": "2",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 28,
+        "section_title": "Page 28",
+        "content_type": "text",
+        "verbatim_quote": "While the average inflation in FY25 has trended downward, monthly volatility in food prices and a select few commodities have been responsible for CPI inflation printing towards the upper side of the tolerance band of 4 (+/-) 2 per cent.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "b27bd79b933a41ad",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "3.4%",
+      "raw_value": "3.4",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 29,
+        "section_title": "Page 29",
+        "content_type": "text",
+        "verbatim_quote": "India's robust services exports have propelled the country to secure the seventh-largest share in global services exports, underscoring its competitiveness 32\tFurther, if gold and silver are also excluded, CPI inflation excluding these five commodities (which constitute 3.4 per cent of the CPI baske",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "71e6260b6cacc153",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "5.7%",
+      "raw_value": "5.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 76,
+        "section_title": "Page 76",
+        "content_type": "text",
+        "verbatim_quote": "and geopolitical tensions, to 5.7 per cent in 20241. In India, retail inflation moderated",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "694a505fce6cdf24",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.3%",
+      "raw_value": "4.3",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 79,
+        "section_title": "Page 79",
+        "content_type": "text",
+        "verbatim_quote": "items are excluded, the average food inflation rate for FY25 (April-December) was 4.3 per cent, which is 4.1 per cent lower than the overall food inflation. Similarly, the average",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "c4759fe6ba9b1111",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.1%",
+      "raw_value": "4.1",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 79,
+        "section_title": "Page 79",
+        "content_type": "text",
+        "verbatim_quote": "per cent, which is 4.1 per cent lower than the overall food inflation. Similarly, the average",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "6bd61c412d3d9463",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "1.7%",
+      "raw_value": "1.7",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 79,
+        "section_title": "Page 79",
+        "content_type": "text",
+        "verbatim_quote": "were excluded, 1.7 per cent lower than the actual headline inflation.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "e0d1d2f14af7ea52",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "3.2%",
+      "raw_value": "3.2",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 79,
+        "section_title": "Page 79",
+        "content_type": "text",
+        "verbatim_quote": "Similarly, the average headline inflation would be 3.2 per cent when the vegetables and pulses inflation rate were excluded, 1.7 per cent lower than the actual headline inflation. .5: Food inflation driven by vegetables and pulses 0 2 4 6 8 10 12 14 Apr-23 Jun-23 Aug-23 Oct-23 Dec-23 Feb-24 Apr-24 J",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "662d78f9215c9ec2",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "6.5%",
+      "raw_value": "6.5",
+      "context": {
+        "temporal_period": "FY25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 80,
+        "section_title": "Page 80",
+        "content_type": "text",
+        "verbatim_quote": "inflation rate in FY25 (April-December) was 6.5 per cent, which is 1.9 per cent lower",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "2039d305483dfa37",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "0.7%",
+      "raw_value": "0.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 80,
+        "section_title": "Page 80",
+        "content_type": "text",
+        "verbatim_quote": "excluding TOP, which is 0.7 per cent lower than the current headline inflation. Given",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "b959d78227cb655c",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.2%",
+      "raw_value": "4.2",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 80,
+        "section_title": "Page 80",
+        "content_type": "text",
+        "verbatim_quote": "Similarly, average headline inflation is 4.2 per cent when excluding TOP, which is 0.7 per cent lower than the current headline inflation.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "9190f868f1e26495",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "30%",
+      "raw_value": "30",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 86,
+        "section_title": "Page 86",
+        "content_type": "text",
+        "verbatim_quote": "Economic Survey 2024-25 128 .1: Onion and tomato crop calendar Vegetable Share in Production Season Transplanting Harvesting Period Onion 30% Kharif Jul-Aug Oct-Dec Late Kharif Oct-Nov Jan-Mar 70% Rabi Dec-Jan End of Mar to May Tomato 33% Kharif May-Jul Jul- Sept 67% Rabi Oct-Nov, Jan-Feb Dec-Jun So",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "ae2efac89796e71a",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.2%",
+      "raw_value": "4.2",
+      "context": {
+        "temporal_period": "FY26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "01-india-economic-survey-2024-25-excerpt.pdf",
+        "page_number": 87,
+        "section_title": "Page 87",
+        "content_type": "text",
+        "verbatim_quote": "shocks, the RBI expects headline inflation to be 4.2 per cent in FY26. IMF has projected",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "74cf0d769c9a2ce6",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": ">2.8Bn",
+      "raw_value": ">2.8",
+      "context": {
+        "temporal_period": "since inception",
+        "reporting_scope": null,
+        "unit": "Bn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 2,
+        "section_title": "Page 2",
+        "content_type": "text",
+        "verbatim_quote": ">2.8Bn(1) Express parcel shipments",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "262cf6054b6247c0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Last-Mile Delivery Centres",
+      "value": "4,445",
+      "raw_value": "4,445",
+      "context": {
+        "temporal_period": "since inception",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 2,
+        "section_title": "Page 2",
+        "content_type": "text",
+        "verbatim_quote": "4,445 Last-mile delivery centres",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "54acec5dc432b552",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Pin Codes Covered",
+      "value": "18,793",
+      "raw_value": "18,793",
+      "context": {
+        "temporal_period": "since inception",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 2,
+        "section_title": "Page 2",
+        "content_type": "text",
+        "verbatim_quote": "18,793 Pin codes covered",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "6deddcf78be67eb3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "98,135",
+      "raw_value": "98,135",
+      "context": {
+        "temporal_period": "since inception",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 2,
+        "section_title": "Page 2",
+        "content_type": "text",
+        "verbatim_quote": "98,135 Workforce strength",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "d6092eefa2e892b5",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "81 INR Cr / %",
+      "raw_value": "81",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 4,
+        "section_title": "Page 4",
+        "content_type": "text",
+        "verbatim_quote": "EBITDA margin \u20b981,415Mn",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "300462f300338e4e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1.6%",
+      "raw_value": "1.6",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 4,
+        "section_title": "Page 4",
+        "content_type": "text",
+        "verbatim_quote": "business, led to a 1.6% EBITDA margin",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "7e726c119bc4696d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "740Mn",
+      "raw_value": "740",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Mn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 4,
+        "section_title": "Page 4",
+        "content_type": "text",
+        "verbatim_quote": "740Mn Express parcels shipped",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "60c0a174f9caf9a3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "1 INR Cr",
+      "raw_value": "1",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 4,
+        "section_title": "Page 4",
+        "content_type": "text",
+        "verbatim_quote": "A year of impactful growth 740Mn Express parcels shipped \u20b91,266Mn EBITDA 1,429K tonnes PTL freight delivered 1.6% EBITDA margin \u20b981,415Mn Revenue from services \u20b9758Mn Adjusted EBITDA Significant developments of FY24 EBITDA profitability FY24 was the first year of full-year EBITDA profitability.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "b2ec34ee1676d08f",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "2,258 INR Cr / %",
+      "raw_value": "2,258",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "EBITDA swung from negative \u20b92,258",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "61b07a507700e71a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "2,258 million",
+      "raw_value": "2,258",
+      "context": {
+        "temporal_period": "FY22",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "In FY22, when our express parcel volumes more than doubled and part truckload tonnage grew by around 40% on a pro forma basis, our adjusted EBITDA swung from negative \u20b92,258 million in FY21 to positive \u20b9715 million on a pro forma basis.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "0a3bf33a25316a55",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "4,516 million",
+      "raw_value": "4,516",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 8,
+        "section_title": "Page 8",
+        "content_type": "text",
+        "verbatim_quote": "profitability. Our EBITDA improved from a loss of \u20b94,516 million in FY23",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "216db4a1cf2ee4f0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1,266 INR Cr / %",
+      "raw_value": "1,266",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 8,
+        "section_title": "Page 8",
+        "content_type": "text",
+        "verbatim_quote": "Achieved EBITDA profit of \u20b91,266",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "168b71ac2cf5ba5c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "5,594",
+      "raw_value": "5,594",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 17,
+        "section_title": "Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Diversity and inclusion In FY24, we continued to develop a diverse and inclusive workforce and increased the overall headcount of female employees to 5,594 across functions and positions.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "afe4e5ce04e10659",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "74,540.82 million",
+      "raw_value": "74,540.82",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": "Consolidated",
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 22,
+        "section_title": "Page 22",
+        "content_type": "text",
+        "verbatim_quote": "Financial Performance Key highlights of the financial performance of your Company for the FY24 are as under: (\u20b9 in Million) Particulars Standalone \u2013 FY ended Consolidated \u2013 FY ended March 31, 2024 March 31, 2023 March 31, 2024 March 31, 2023 Revenue from Operations 74,540.82 66,586.61 81,415.38 72,2",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "129fd16c80718746",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "81,415.38 million",
+      "raw_value": "81,415.38",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": "Consolidated",
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 22,
+        "section_title": "Page 22",
+        "content_type": "text",
+        "verbatim_quote": "Whereas the loss for FY24 stood at \u20b9 1,679.68 million as against \u20b98,123.02 million for FY23, a reduction of loss by 79.32%. y The revenue from operations on consolidated basis for FY24 stood at \u20b9 81,415.38 million as against \u20b972,253.01 million for FY23, registering a growth of 12.68%.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "1af22d14ef09298c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "2,491.86 million",
+      "raw_value": "2,491.86",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 22,
+        "section_title": "Page 22",
+        "content_type": "text",
+        "verbatim_quote": "Whereas the loss for FY24 stood at \u20b9 2,491.86 million as against \u20b910,077.79 million for FY23, a reduction of loss by 75.27%. y The increase in revenue from operations is on account of increase in revenue from our Express Parcel, Part Truck Load (\u201cPTL\u201d) services, Truck Load (\u201cTL\u201d) services and other ",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "89a5c99e8bc43871",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Global Economic Growth",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 34,
+        "section_title": "Page 34",
+        "content_type": "text",
+        "verbatim_quote": "July 2024, the global economic growth for 2025 will likely hold steady at 3.3% and inemerging markets and developing",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "2cbe99917db9fcc4",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": " INR Cr / %",
+      "raw_value": "",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "summarises our total revenues from contracts with customers, expenses and calculation of EBITDA and adjusted EBITDA-.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "7469698f5427d5b3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "81,415.38 INR Cr / %",
+      "raw_value": "81,415.38",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": "Consolidated",
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "Consolidated financial performance Analysis of our financial performance for the current and previous financial year is provided below: (\u20b9 in Million) Particulars March 31, 2024 March 31, 2023 Revenue from contracts with customers 81,415.38 72,253.01 Other income 4,526.96 3,049.48 Total income 85,94",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "efc75bb6bb0d65ec",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "72,253.01million",
+      "raw_value": "72,253.01",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "FY24 from \u20b972,253.01 million for FY23. y Revenues from express parcel services increased by 11.52%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "b68d332c0316868c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "0,765.87million",
+      "raw_value": "0,765.87",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "to \u20b950,765.87 million for FY24 from \u20b945,522.22 million for FY23. Express parcel shipment volumes increased by",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "16e592f084e46aa2",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "56,694.80million",
+      "raw_value": "56,694.80",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "\u20b959,707.49 million for FY24 from \u20b956,694.80 million for FY23 due to an increase in express parcel volumes, PTL tonnage,",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "f96df362d2d2c523",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "85,942.34million",
+      "raw_value": "85,942.34",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "Particulars March 31, 2024 % share March 31, 2023 % share Revenues from express parcel services 50,765.87 62.35% 45,522.22 63.00% Revenues from part truckload services 15,174.05 18.64% 11,565.38 16.01% Revenues from truckload services 6,087.96 7.48% 4,362.17 6.04% Revenues from supply chain services",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "8e1e5ea6646b78ff",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "740million",
+      "raw_value": "740",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "million",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "Express parcel shipment volumes increased by 11.48% to 740 million parcels for FY24 from 663 million parcels for FY23. y Revenues from PTL services increased by 31.20% to \u20b915,174.05 million for FY24 from \u20b911,565.38 million for FY23.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "e600ff193506df31",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "4,367",
+      "raw_value": "4,367",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 36,
+        "section_title": "Page 36",
+        "content_type": "text",
+        "verbatim_quote": "\u20b914,367.70 million for FY24 from \u20b914,000.34 million for FY23. headcount and increments paid to existing employees. Our",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "fe96480f48fce9bf",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1.56%",
+      "raw_value": "1.56",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 37,
+        "section_title": "Page 37",
+        "content_type": "text",
+        "verbatim_quote": "EBITDA margin 1.56%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "f4a451e4a9ca5284",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "781%",
+      "raw_value": "781",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 37,
+        "section_title": "Page 37",
+        "content_type": "text",
+        "verbatim_quote": "of revenue from customers. Our EBITDA margin expanded by 781 bps from FY23 to FY24 due to (i) robust growth in revenues from",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "4bb979aaf8d16dab",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "0.93%",
+      "raw_value": "0.93",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 37,
+        "section_title": "Page 37",
+        "content_type": "text",
+        "verbatim_quote": "(\u20b9 in Million) Particulars March 31, 2024 March 31, 2023 Remarks EBITDA 1,266.41 (4,516.08) Add: Share-based payment expenses 2,260.37 2,891.41 Accounting expenses towards ESOPs and SARs already granted Add: IPO expenses - 164.77 IPO related non-operating expenses Less: Actual lease rent paid 2,768.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "d12d14f5807ba030",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "18,604",
+      "raw_value": "18,604",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 51,
+        "section_title": "Page 51",
+        "content_type": "text",
+        "verbatim_quote": "Total employees (D + E) 18,604 17,121 92.03% 1,483 7.97% WORKERS.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "3cd50bdaffd05341",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "18,604",
+      "raw_value": "18,604",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 59,
+        "section_title": "Page 59",
+        "content_type": "text",
+        "verbatim_quote": "Total Employees 18,604",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "62aacca80b9b0441",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Workforce Strength",
+      "value": "13,139",
+      "raw_value": "13,139",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Count",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 59,
+        "section_title": "Page 59",
+        "content_type": "text",
+        "verbatim_quote": "PRINCIPLE 5 Businesses should respect and promote human rights Essential Indicators 1. \u0007Employees and workers who have been provided training on human rights issues and policy(ies) of the entity, in the following format: Category FY24 FY23 Total (A) No. of employees/ workers covered (B) % (B/A) Tota",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "9c30e0567c9f0b1d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "2.57 INR Cr",
+      "raw_value": "2.57",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 61,
+        "section_title": "Page 61",
+        "content_type": "text",
+        "verbatim_quote": "Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY24 FY23 Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) Metric tonnes of CO2 equivalent 156,885.60* 57,846.29 To",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "74a582435c05516b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": " INR Cr",
+      "raw_value": "",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 62,
+        "section_title": "Page 62",
+        "content_type": "text",
+        "verbatim_quote": "Parameter FY24* FY23 Waste intensity per rupee of turnover (Total waste generated/Revenue from operations) 23.3 9.9 Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total waste generated/Revenue from operations adjusted for PPP) 556.3 239.4 Waste intensity in terms o",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "7d93aa24a57bf70e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "101.90 INR Cr",
+      "raw_value": "101.90",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 85,
+        "section_title": "Page 85",
+        "content_type": "text",
+        "verbatim_quote": "Revenue from contracts with customers Particulars March 31, 2024 March 31, 2023 Sale of services Revenue from services* 81,415.38 72,236.47 Sale of goods Revenue from sale of traded goods - 16.54 81,415.38 72,253.01 *includes Revenue from Express Parcel services 50,765.87 45,522.22 Revenue from Part",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "62c071c82e121bd5",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "2,830.13 INR Cr",
+      "raw_value": "2,830.13",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": "Consolidated",
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page_number": 99,
+        "section_title": "Page 99",
+        "content_type": "text",
+        "verbatim_quote": "Revenue from contract with customers 2,830.13",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "a04240de3267bd8b",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Global Economic Growth",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "Fund (IMF)1, global growth at 3.3 per cent",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "844c0477cb288490",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "6.7%",
+      "raw_value": "6.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "In contrast, food inflation remained elevated at 6.7 per cent in 2024-25, with intermittent spikes",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "56cc7df57c58a30d",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "9.7%",
+      "raw_value": "9.7",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "to headline inflation. Food inflation recorded an intra-year peak of 9.7 per cent in October",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "369681d0c77be9d6",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.7%",
+      "raw_value": "4.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 11,
+        "section_title": "Page 11",
+        "content_type": "text",
+        "verbatim_quote": "deficit (GFD) declining to 4.7 per cent of GDP in",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "861f3f8fbdf1228c",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.2%",
+      "raw_value": "3.2",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": "Consolidated",
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 11,
+        "section_title": "Page 11",
+        "content_type": "text",
+        "verbatim_quote": "Nevertheless, the consolidated GFD of states is likely to remain within the budget estimate of 3.2 per cent of GDP.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "4c57eee214368cc8",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.0%",
+      "raw_value": "4.0",
+      "context": {
+        "temporal_period": "2025-26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 17,
+        "section_title": "Page 17",
+        "content_type": "text",
+        "verbatim_quote": "factors, CPI inflation for 2025-26 is projected at 4.0 per cent, with risks evenly balanced.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "adcc0859d31e6ba5",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.5%",
+      "raw_value": "6.5",
+      "context": {
+        "temporal_period": "2025-26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 17,
+        "section_title": "Page 17",
+        "content_type": "text",
+        "verbatim_quote": "into account these factors, real GDP growth for 2025-26 is projected at 6.5 per cent, with risks",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "05fe3f0cb2744dbc",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.5%",
+      "raw_value": "4.5",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 18,
+        "section_title": "Page 18",
+        "content_type": "text",
+        "verbatim_quote": "objective of bringing the GFD below 4.5 per cent",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "7e82fe527eecfada",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": "Consolidated",
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 18,
+        "section_title": "Page 18",
+        "content_type": "text",
+        "verbatim_quote": "consolidated GFD budgeted at 3.3 per cent of",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "d32e5a30dbad762f",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "5.7%",
+      "raw_value": "5.7",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 22,
+        "section_title": "Page 22",
+        "content_type": "text",
+        "verbatim_quote": "Global inflation eased to 5.7 per cent in 2024 from 6.6 per cent a year ago as the effect of monetary tightening took hold along with the easing of supply chain pressures; however, it was still above the pre-pandemic average, with elevated services inflation persisting in some major advanced economi",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "431cf2d6d5f99968",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.2%",
+      "raw_value": "6.2",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 24,
+        "section_title": "Page 24",
+        "content_type": "text",
+        "verbatim_quote": "The economy, however, picked up momentum in Q3 to grow by 6.2 per cent  .",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "f9f1c651f1cb6acb",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.8%",
+      "raw_value": "4.8",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 39,
+        "section_title": "Page 39",
+        "content_type": "text",
+        "verbatim_quote": "CPI headline inflation in India eased from 4.8 per cent in April-May 2024 to 3.6 per cent",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "c74df6f17609d223",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2025",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 39,
+        "section_title": "Page 39",
+        "content_type": "text",
+        "verbatim_quote": "inflation eased to 3.3 per cent in March 2025",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "278afc9f1b0f6b27",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.6%",
+      "raw_value": "4.6",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 39,
+        "section_title": "Page 39",
+        "content_type": "text",
+        "verbatim_quote": "on sharp moderation in food inflation. Overall, headline inflation averaged 4.6 per cent during",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "2add9c2c74d45ead",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "61%",
+      "raw_value": "61",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 40,
+        "section_title": "Page 40",
+        "content_type": "text",
+        "verbatim_quote": "headline inflation during 2024-25 as compared with 61 per cent a year ago (Chart II.3.4). Weather",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "0b900bc183f069df",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "6.7%",
+      "raw_value": "6.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 42,
+        "section_title": "Page 42",
+        "content_type": "text",
+        "verbatim_quote": "a moderation in food inflation to 6.7 per cent in",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "97d96313d102167a",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "38%",
+      "raw_value": "38",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 42,
+        "section_title": "Page 42",
+        "content_type": "text",
+        "verbatim_quote": "Prices corrected sharply during November 2024-March 2025 by around (-) 38 per cent with increase in market arrivals, reflecting .3.5: Drivers of Food Inflation (Y-o-Y) *: Includes egg, milk and products, and meat and fish. #: Includes fruits, sugar and confectionery, non-alcoholic beverages, and pre",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "4097dd9e56682c87",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.4%",
+      "raw_value": "4.4",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 43,
+        "section_title": "Page 43",
+        "content_type": "text",
+        "verbatim_quote": "However, with increase in production in 2024-25 (4.4 per cent as per 1st AE over 2023- 24) and higher market arrivals, potato inflation moderated during January-March 2025.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "59b25e60bf253a8b",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "3.6%",
+      "raw_value": "3.6",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 46,
+        "section_title": "Page 46",
+        "content_type": "text",
+        "verbatim_quote": "the fuel group to headline inflation decreased to (-) 3.6 per cent in 2024-25 from 1.6 per cent a",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "ebe3b0b6618bcd38",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "2.3%",
+      "raw_value": "2.3",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 48,
+        "section_title": "Page 48",
+        "content_type": "text",
+        "verbatim_quote": "II.3.24\t Inflation measured by the wholesale price index (WPI) increased to 2.3 per cent during 2024-25 from a deflation of (-) 0.7 per cent a year ago, primarily due to an uptick in food inflation and pass-through of global metals and minerals prices.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "bfc09ebbd1424991",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4.0%",
+      "raw_value": "4.0",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 63,
+        "section_title": "Page 63",
+        "content_type": "text",
+        "verbatim_quote": "25 along with lower CPI inflation prints for July and August \u2013 below 4.0 per cent for the first time",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "85cc857f84908779",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.7%",
+      "raw_value": "4.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 69,
+        "section_title": "Page 69",
+        "content_type": "text",
+        "verbatim_quote": "government contained the gross fiscal deficit (GFD) to 4.7 per cent of GDP \u2013 0.2 per cent",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "f9fc86f32bf33ff4",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.5",
+      "raw_value": "3.5",
+      "context": {
+        "temporal_period": "2015-16",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: Average of 2015-16 to 2018-19 = 3.5",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "6c75e98f40b05300",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.6",
+      "raw_value": "4.6",
+      "context": {
+        "temporal_period": "2019-20",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2019-20 = 4.6",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "19f8febcfda45d40",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "9.2",
+      "raw_value": "9.2",
+      "context": {
+        "temporal_period": "2020-21",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2020-21 = 9.2",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "5a01aac16ed6e9f9",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "6.7",
+      "raw_value": "6.7",
+      "context": {
+        "temporal_period": "2021-22",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2021-22 = 6.7",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "795edc8bd5f0e912",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "6.5",
+      "raw_value": "6.5",
+      "context": {
+        "temporal_period": "2022-23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2022-23 = 6.5",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "d510f47a018bfaee",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "5.5",
+      "raw_value": "5.5",
+      "context": {
+        "temporal_period": "2023-24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2023-24 = 5.5",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "a90b0463feb9907c",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.7",
+      "raw_value": "4.7",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2024-25 (RE) = 4.7",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "c4d5ef859a3827ea",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.4",
+      "raw_value": "4.4",
+      "context": {
+        "temporal_period": "2025-26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 70,
+        "section_title": "Table 2 on Page 70",
+        "content_type": "text",
+        "verbatim_quote": "Row: X. Gross Fiscal Deficit | Col: 2025-26 (BE) = 4.4",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "262054990caacbb0",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.4%",
+      "raw_value": "4.4",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 71,
+        "section_title": "Page 71",
+        "content_type": "text",
+        "verbatim_quote": "fiscal consolidation by targeting a GFD of 4.4 per cent of GDP (Table II.6.1 and Appendix Table 6).",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "8baff82a8b659ce5",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "8.0",
+      "raw_value": "8.0",
+      "context": {
+        "temporal_period": "2020-21",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Table 2 on Page 73",
+        "content_type": "text",
+        "verbatim_quote": "Row: V. Fiscal Deficit | Col: 2020-21 = 8.0",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "4cbc35ee6535d3dd",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "6.5",
+      "raw_value": "6.5",
+      "context": {
+        "temporal_period": "2021-22",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Table 2 on Page 73",
+        "content_type": "text",
+        "verbatim_quote": "Row: V. Fiscal Deficit | Col: 2021-22 = 6.5",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "46400ef028a5293d",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "7.2",
+      "raw_value": "7.2",
+      "context": {
+        "temporal_period": "2022-23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Table 2 on Page 73",
+        "content_type": "text",
+        "verbatim_quote": "Row: V. Fiscal Deficit | Col: 2022-23 = 7.2",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "24cea3a4860df03e",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "10.4",
+      "raw_value": "10.4",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Table 2 on Page 73",
+        "content_type": "text",
+        "verbatim_quote": "Row: V. Fiscal Deficit | Col: 2024-25 (BE) = 10.4",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "da45bac3a134e037",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "64.2%",
+      "raw_value": "64.2",
+      "context": {
+        "temporal_period": "2025",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Page 73",
+        "content_type": "text",
+        "verbatim_quote": "2025, states\u2019 GFD stood at 64.2 per cent of their",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "0c42bf3fe213fd20",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.3%",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2025-26",
+        "reporting_scope": "Consolidated",
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 73,
+        "section_title": "Page 73",
+        "content_type": "text",
+        "verbatim_quote": "all states/UTs, their consolidated GFD-GDP ratio for 2025-26 is budgeted at 3.3 per cent",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "cbc592d82cee19b1",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.0",
+      "raw_value": "3.0",
+      "context": {
+        "temporal_period": "2023-24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 74,
+        "section_title": "Table 2 on Page 74",
+        "content_type": "text",
+        "verbatim_quote": "Row: Gross Fiscal Deficit | Col: 2023-24 = 3.0",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "509380e193d184f0",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.6",
+      "raw_value": "3.6",
+      "context": {
+        "temporal_period": "2024-25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 74,
+        "section_title": "Table 2 on Page 74",
+        "content_type": "text",
+        "verbatim_quote": "Row: Gross Fiscal Deficit | Col: 2024-25 (RE) = 3.6",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "a924fbff83827f64",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "3.3",
+      "raw_value": "3.3",
+      "context": {
+        "temporal_period": "2025-26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "02-rbi-annual-report-2024-25-excerpt.pdf",
+        "page_number": 74,
+        "section_title": "Table 2 on Page 74",
+        "content_type": "text",
+        "verbatim_quote": "Row: Gross Fiscal Deficit | Col: 2025-26 (BE) = 3.3",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "c139e0e07d3afd19",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "40%",
+      "raw_value": "40",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "TL: 40% YoY revenue growth with service EBITDA profitability improvement",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "f159a8caff6dcf1c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "578 Cr",
+      "raw_value": "578",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "5cd0227077863690",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "18%",
+      "raw_value": "18",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "7018c5a619e1e131",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "759 Cr",
+      "raw_value": "759",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 5,
+        "section_title": "Page 5",
+        "content_type": "text",
+        "verbatim_quote": "759 Cr from Rs. (1,008 Cr) in FY23 2 Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "069c44d7eeac07c2",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6.3%",
+      "raw_value": "6.3",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "EBITDA / EBITDA margin FY23: \u20b9(452) Cr / (6.3%)",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "ec01acc7698b4b50",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "5.6%",
+      "raw_value": "5.6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "Adj. EBITDA / Adj. EBITDA margin FY23: \u20b9(404) Cr / (5.6%)",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "ab6365bb1371455a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "740Mn",
+      "raw_value": "740",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Mn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "740 Mn Express parcel shipments in FY24",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "876a914256e87dfa",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "2.8Bn",
+      "raw_value": "2.8",
+      "context": {
+        "temporal_period": "since inception",
+        "reporting_scope": null,
+        "unit": "Bn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "2.8 Bn+ Express parcel shipments since inception",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "6c4bb2dd846e6214",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "1.4 Mn",
+      "raw_value": "1.4",
+      "context": {
+        "temporal_period": "FY21",
+        "reporting_scope": null,
+        "unit": "Mn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 6,
+        "section_title": "Page 6",
+        "content_type": "text",
+        "verbatim_quote": "ss India\u2019s largest integrated logistics platform As per RedSeer report basis FY21 revenue Growth rate of revenue from services (excluding revenue from traded goods) Includes Spoton\u2019s full year tonnage for FY22 5 1.4 Mn Tons PTL freight tonnage in FY24 YoY: 29.8% \u20b98,142 Cr FY24 revenue from services ",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "f0e6680e93bd4dea",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "13 Cr",
+      "raw_value": "13",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "EBITDA / EBITDA margin Q4 FY23: \u20b913 Cr / 0.7%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "5b2514ef1e475d88",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6 Cr",
+      "raw_value": "6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "Adj. EBITDA / Adj. EBITDA margin Q4 FY23: \u20b96 Cr / 0.3%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "f18b89b88ca52f93",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Express Parcel Shipments",
+      "value": "176Mn",
+      "raw_value": "176",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "Mn",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "176 Mn Express parcel shipments in Q4 FY24",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "eb48149070a247d1",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "2,076 Cr",
+      "raw_value": "2,076",
+      "context": {
+        "temporal_period": "FY21",
+        "reporting_scope": null,
+        "unit": "Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 7,
+        "section_title": "Page 7",
+        "content_type": "text",
+        "verbatim_quote": "ss India\u2019s largest integrated logistics platform As per RedSeer report basis FY21 revenue Growth rate of revenue from services (excluding revenue from traded goods) 6 384K Tons PTL freight tonnage in Q4 FY24 YoY: 20.8% / QoQ: 8.6% \u20b92,076 Cr Q4 FY24 revenue from services YoY: 11.6% / QoQ: (5.4%) 176 ",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "ec023dab406bb389",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "46 INR Cr",
+      "raw_value": "46",
+      "context": {
+        "temporal_period": "FY22",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "318 296 153 FY22 FY23 FY24 FY24 performance 551 782 776 FY22 FY23 FY24 287 436 609 FY22 FY23 FY24 TL revenue Cross Border Services revenue (\u20b9 Cr) (\u20b9 Cr) Supply Chain Services revenue (\u20b9 Cr) 9 YoY: 40% YoY: (1%) YoY: (48%) Revenue from services excludes revenue from traded goods FY22 numbers are on p",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "28a0f364073a8bd0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "12.5%",
+      "raw_value": "12.5",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 13,
+        "section_title": "Page 13",
+        "content_type": "text",
+        "verbatim_quote": "(12.5%) (7.0%) (3.7%) 0.3% (1.3%) (0.6%) 4.2% 1.0% (5.6%) 0.9% Q1 FY23 Q2 FY23 Q3 FY23 Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 FY23 FY24 Adjusted EBITDA 6 (\u20b9 Cr) Quarterly 12 Quarterly 92 21 76 Yearly",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "96e54b2bc8ac813c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6",
+      "raw_value": "6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q1 FY23 = 6",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "3a21d1e8dd1b085a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "86",
+      "raw_value": "86",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q2 FY23 = 86",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "aaff1ee7b181c83b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "139",
+      "raw_value": "139",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q3 FY23 = 139",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "0b4c9364e2c41d2a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "205",
+      "raw_value": "205",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q4 FY23 = 205",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "76252a3b4cd5624d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "196",
+      "raw_value": "196",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q1 FY24 = 196",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "98916f3e364d8fad",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "201",
+      "raw_value": "201",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q2 FY24 = 201",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "6ab4ac32b4201a5a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "306",
+      "raw_value": "306",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q3 FY24 = 306",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "8b5db7d4345b93a6",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "238",
+      "raw_value": "238",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: Q4 FY24 = 238",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "0dc1e416b03b111e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "422",
+      "raw_value": "422",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: FY23 = 422",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "08a2ead7323626e0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "941",
+      "raw_value": "941",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA | Col: FY24 = 941",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "bd40086c28af099c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "0.3%",
+      "raw_value": "0.3",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q1 FY23 = 0.3%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "cbb7d9db04c270da",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "4.8%",
+      "raw_value": "4.8",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q2 FY23 = 4.8%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "4e0510da0c265ab0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "7.6%",
+      "raw_value": "7.6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q3 FY23 = 7.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "17eea29d725ebc9e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "11.0%",
+      "raw_value": "11.0",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q4 FY23 = 11.0%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "c95afcdf22627e60",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "10.2%",
+      "raw_value": "10.2",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q1 FY24 = 10.2%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "b651e9e45c5986e9",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "10.4%",
+      "raw_value": "10.4",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q2 FY24 = 10.4%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "f1014f2242203d88",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "14.0%",
+      "raw_value": "14.0",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q3 FY24 = 14.0%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "12346c7ff23ce465",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "11.5%",
+      "raw_value": "11.5",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: Q4 FY24 = 11.5%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "dd30e3058a71899d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "5.8%",
+      "raw_value": "5.8",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: FY23 = 5.8%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "cdc3ad84533e77fe",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "11.6%",
+      "raw_value": "11.6",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Service EBITDA margin | Col: FY24 = 11.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "2e50944a27218cf7",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "217",
+      "raw_value": "217",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q1 FY23 = 217",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "837e0865b83e8341",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "125",
+      "raw_value": "125",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q2 FY23 = 125",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "b335c061597d4f32",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "67",
+      "raw_value": "67",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q3 FY23 = 67",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "9259ea70e5373614",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "25",
+      "raw_value": "25",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q1 FY24 = 25",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "55538afefd4ae9e5",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "13",
+      "raw_value": "13",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q2 FY24 = 13",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "8d90f0d562519e93",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "92",
+      "raw_value": "92",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q3 FY24 = 92",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "cee369f6da1d1069",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "21",
+      "raw_value": "21",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q4 FY24 = 21",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "1704935bb6450f19",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "404",
+      "raw_value": "404",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY23 = 404",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "32a93a2183d33289",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "76",
+      "raw_value": "76",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY24 = 76",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "b102a0dcddbe8b46",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "12.5%",
+      "raw_value": "12.5",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q1 FY23 = 12.5%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "770e68e118ba4745",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "7.0%",
+      "raw_value": "7.0",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q2 FY23 = 7.0%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "3f5b25adef360ba9",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "3.7%",
+      "raw_value": "3.7",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q3 FY23 = 3.7%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "0fb387506fc2c0c0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1.3%",
+      "raw_value": "1.3",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q1 FY24 = 1.3%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "0d1da22d2f1491eb",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "0.6%",
+      "raw_value": "0.6",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q2 FY24 = 0.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "80455f91b269537e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "4.2%",
+      "raw_value": "4.2",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q3 FY24 = 4.2%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "92112b84a215a2a1",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1.0%",
+      "raw_value": "1.0",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: Q4 FY24 = 1.0%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "f41d5f588791407a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "5.6%",
+      "raw_value": "5.6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: FY23 = 5.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "06a2db1a4e69ec83",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "0.9%",
+      "raw_value": "0.9",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Table 1 on Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA margin | Col: FY24 = 0.9%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "ed18b8b7d33084bb",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "1,746 INR Cr",
+      "raw_value": "1,746",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 14,
+        "section_title": "Page 14",
+        "content_type": "text",
+        "verbatim_quote": "Adjusted EBITDA \u20b9 Cr Q1 FY23 Q2 FY23 Q3 FY23 Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 FY23 FY24 Revenue from customers 1,746 1,796 1,824 1,860 1,930 1,942 2,194 2,076 7,225 8,142 Service EBITDA 86 139 205 196 201 306 238 422 941 Service EBITDA margin (0.3%) 4.8% 7.6% 11.0% 10.2% 10.4% 14.0% 11.5% 5.8",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "5b4cd7a5b1967d3d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6",
+      "raw_value": "6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q1 FY23 = 6",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "a343a06c473bdf8b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "86",
+      "raw_value": "86",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q2 FY23 = 86",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "d0cb2f72866adc9f",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "139",
+      "raw_value": "139",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q3 FY23 = 139",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "9e39acd0a9fe2742",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "205",
+      "raw_value": "205",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q4 FY23 = 205",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "1ca1a93d42e4c65a",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "196",
+      "raw_value": "196",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q1 FY24 = 196",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "74b3e80ba0d86668",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "201",
+      "raw_value": "201",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q2 FY24 = 201",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "5de84266c085f26d",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "306",
+      "raw_value": "306",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q3 FY24 = 306",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "4c8d82c0f1c6ea95",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "238",
+      "raw_value": "238",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: Q4 FY24 = 238",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "6c1f98aaaca2e695",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "422",
+      "raw_value": "422",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: FY23 = 422",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "a46655822365f91b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "941",
+      "raw_value": "941",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Total Service EBITDA | Col: FY24 = 941",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "5092a47980c7a9e6",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "217",
+      "raw_value": "217",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q1 FY23 = 217",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "1657fa964d664977",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "125",
+      "raw_value": "125",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q2 FY23 = 125",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "8cde5b456759cac2",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "67",
+      "raw_value": "67",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q3 FY23 = 67",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "af7e360c574599d0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "25",
+      "raw_value": "25",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q1 FY24 = 25",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "bc3eaa9a2b00c06e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "13",
+      "raw_value": "13",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q2 FY24 = 13",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "8d0b67e31c966709",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "92",
+      "raw_value": "92",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q3 FY24 = 92",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "470317a83a603b3b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "21",
+      "raw_value": "21",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q4 FY24 = 21",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "04449dab93cb5dc7",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "404",
+      "raw_value": "404",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY23 = 404",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "85f61f252161758e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "76",
+      "raw_value": "76",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Table 1 on Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY24 = 76",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "e38aeebd5eddd9ce",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "941%",
+      "raw_value": "941",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 15,
+        "section_title": "Page 15",
+        "content_type": "text",
+        "verbatim_quote": "Service line-wise profitability \u20b9 Cr Q1 FY23 Q2 FY23 Q3 FY23 Q4 FY23 Q1 FY24 Q2 FY24 Q3 FY24 Q4 FY24 FY23 FY24 Total Service EBITDA 86 139 205 196 201 306 238 422 941 % margin (0.3%) 4.8% 7.6% 11.0% 10.2% 10.4% 14.0% 11.5% 5.8% 11.6% Express Parcel 94 134 190 219 217 203 299 214 636 934 % margin 8.9",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "e64de67f31e1b937",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "0.7%",
+      "raw_value": "0.7",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: Q4 FY23 = 0.7%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "0533fd30fde44c35",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "5.0%",
+      "raw_value": "5.0",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: Q3 FY24 = 5.0%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "ca12209078e7287e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "2.2%",
+      "raw_value": "2.2",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: Q4 FY24 = 2.2%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "058fd08aa513ab96",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "277 Bps",
+      "raw_value": "277",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: QoQ% = 277 Bps",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "14297544df93c2ac",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "149 Bps",
+      "raw_value": "149",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: YoY% = 149 Bps",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "444da8bf79f7d0f3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6.3%",
+      "raw_value": "6.3",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: FY23 = 6.3%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "69b33dafeab08be3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1.6%",
+      "raw_value": "1.6",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: FY24 = 1.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "c67f04e1b553f76c",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "781 Bps",
+      "raw_value": "781",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Table 1 on Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Row: EBITDA margin | Col: YoY% = 781 Bps",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "818300cca712b6c5",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "58.0%",
+      "raw_value": "58.0",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 17,
+        "section_title": "Page 17",
+        "content_type": "text",
+        "verbatim_quote": "Quarterly and full year financial performance \u20b9 Cr Q4 FY23 Q3 FY24 Q4 FY24 QoQ% YoY% FY23 FY24 YoY% Income Revenue for services (A) 1,860 2,194 2,076 (5.4%) 11.6% 7,224 8,142 12.7% Revenue from traded goods (B) 0 - - - - 2 - - Revenue from customers (A+B) 1,860 2,194 2,076 (5.4%) 11.6% 7,225 8,142 1",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "ad9c0a2cf2d64129",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "13",
+      "raw_value": "13",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Reported EBITDA | Col: Q4 FY23 = 13",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "2b9f0cb7f125e2af",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "109",
+      "raw_value": "109",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Reported EBITDA | Col: Q3 FY24 = 109",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "714a06492c9440e8",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "46",
+      "raw_value": "46",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Reported EBITDA | Col: Q4 FY24 = 46",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "7008c37dc3c59ea3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "452",
+      "raw_value": "452",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Reported EBITDA | Col: FY23 = 452",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "d58654f6a06e5149",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "127",
+      "raw_value": "127",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Reported EBITDA | Col: FY24 = 127",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "982cab5131bb5d93",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "6",
+      "raw_value": "6",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q4 FY23 = 6",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "38ca02ef6f967e19",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "92",
+      "raw_value": "92",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q3 FY24 = 92",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "bfb84bc3411d9b4f",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "21",
+      "raw_value": "21",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: Q4 FY24 = 21",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "3e471831e459e742",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "404",
+      "raw_value": "404",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY23 = 404",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "bed6f76e7615949e",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "76",
+      "raw_value": "76",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Table 1 on Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Row: Adjusted EBITDA | Col: FY24 = 76",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "2bd63d7f666f0ea0",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Adjusted EBITDA",
+      "value": "1,860 INR Cr / %",
+      "raw_value": "1,860",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "INR Cr / %",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 23,
+        "section_title": "Page 23",
+        "content_type": "text",
+        "verbatim_quote": "Adjusted EBITDA bridge \u20b9 Cr Q4 FY23 Q3 FY24 Q4 FY24 FY23 FY24 Remarks Total revenue from customers 1,860 2,194 2,076 7,225 8,142 Less: Freight handling and servicing cost 1,372 1,572 1,519 5,669 5,971 Less: Purchase & change in inventory of traded goods - - - 2 - Less: Employee benefit expense 357 3",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "40813d86a1eaa5e3",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "72.5%",
+      "raw_value": "72.5",
+      "context": {
+        "temporal_period": "FY22",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: Q4 FY22 = 72.5%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "62f4cd18af314173",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "73.8%",
+      "raw_value": "73.8",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: Q4 FY23 = 73.8%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "a558866d46b62dd7",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "71.6%",
+      "raw_value": "71.6",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: Q3 FY24 = 71.6%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "80b0768f78fcdc93",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "73.2%",
+      "raw_value": "73.2",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: Q4 FY24 = 73.2%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "4d78a2b89f870f27",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "78.5%",
+      "raw_value": "78.5",
+      "context": {
+        "temporal_period": "FY23",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: FY23 = 78.5%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "ce98015f701a051b",
+      "category": "numerical",
+      "entity": "Delhivery Limited",
+      "metric": "Revenue from Operations",
+      "value": "73.3%",
+      "raw_value": "73.3",
+      "context": {
+        "temporal_period": "FY24",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page_number": 24,
+        "section_title": "Table 1 on Page 24",
+        "content_type": "text",
+        "verbatim_quote": "Row: % of Revenue from services(2) | Col: FY24 = 73.3%",
+        "bounding_box": null
+      },
+      "confidence_score": 0.95
+    },
+    {
+      "fact_id": "af8727d9a92c3cca",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "1.5%",
+      "raw_value": "1.5",
+      "context": {
+        "temporal_period": "FY2024/25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "Headline inflation has declined to 1.5 percent in September 2025, down from 4.6 percent (FY2024/25 average), reflecting lower domestic food prices from good harvests.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "58f6d862233b982c",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Nominal GDP Growth",
+      "value": "7.8%",
+      "raw_value": "7.8",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "this fiscal year, underpinning real GDP growth of 7.8 percent in 2025Q2. Nominal GDP growth",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "9f8a6f82bafa406c",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Nominal GDP Growth",
+      "value": "8.8%",
+      "raw_value": "8.8",
+      "context": {
+        "temporal_period": "FY2024/25",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "Nominal GDP growth moderated to 8.8 percent in 2025Q2, down from 9.8 percent in FY2024/25, reflecting a low deflator mainly driven by declining food prices.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "7688905b0469c075",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "7.8%",
+      "raw_value": "7.8",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 10,
+        "section_title": "Page 10",
+        "content_type": "text",
+        "verbatim_quote": "Strong private consumption has continued this fiscal year, underpinning real GDP growth of 7.8 percent in 2025Q2.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "04ddaaed8085dfc3",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "4%",
+      "raw_value": "4",
+      "context": {
+        "temporal_period": "FY2026/27",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 13,
+        "section_title": "Page 13",
+        "content_type": "text",
+        "verbatim_quote": "3.5 percent this FY. In FY2026/27, headline inflation is expected to converge to 4 percent, mainly",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "9c4f5979fe7e9fac",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "2.8%",
+      "raw_value": "2.8",
+      "context": {
+        "temporal_period": "FY2025/26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 13,
+        "section_title": "Page 13",
+        "content_type": "text",
+        "verbatim_quote": "Headline inflation is expected to remain benign and average 2.8 percent in FY2025/26, below the 4-percent target but within the RBI\u2019s tolerance band, reflecting subdued food price dynamics and the GST reform.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "685609fa15c0c607",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.6%",
+      "raw_value": "6.6",
+      "context": {
+        "temporal_period": "FY2025/26",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 13,
+        "section_title": "Page 13",
+        "content_type": "text",
+        "verbatim_quote": "Under staff\u2019s baseline scenario, real GDP growth is projected at 6.6 percent in FY2025/26, helped by",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "5a39cc393d19f463",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Gross Fiscal Deficit",
+      "value": "4.4%",
+      "raw_value": "4.4",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 19,
+        "section_title": "Page 19",
+        "content_type": "text",
+        "verbatim_quote": "24.      The authorities expressed a strong commitment to this year\u2019s fiscal deficit target of 4.4 percent of GDP and the medium-term fiscal anchor. To meet this year\u2019s target, they pointed",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "0f4e90a7d282d8f6",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Headline Inflation",
+      "value": "2%",
+      "raw_value": "2",
+      "context": {
+        "temporal_period": null,
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 33,
+        "section_title": "Page 33",
+        "content_type": "text",
+        "verbatim_quote": "framework, including the 4-percent target with \u00b12 percent band on headline inflation (rather than",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "d22819be9923f4cf",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Nominal GDP Growth",
+      "value": "27.9%",
+      "raw_value": "27.9",
+      "context": {
+        "temporal_period": "2023",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 52,
+        "section_title": "Page 52",
+        "content_type": "text",
+        "verbatim_quote": "reflecting valuation changes and nominal GDP growth offsetting the impact of the CA deficit. Gross foreign assets declined to about 27.9 percent of GDP (from 28.1 percent of GDP in 2023), while gross foreign",
+        "bounding_box": null
+      },
+      "confidence_score": 0.92
+    },
+    {
+      "fact_id": "998f46d7ed882cb8",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Nominal GDP Growth",
+      "value": "9.6%",
+      "raw_value": "9.6",
+      "context": {
+        "temporal_period": "2024",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 52,
+        "section_title": "Page 52",
+        "content_type": "text",
+        "verbatim_quote": "India\u2019s NIIP improved to \u22129.6 percent of GDP in 2024, from \u221210.5 percent of GDP in 2023, reflecting valuation changes and nominal GDP growth offsetting the impact of the CA deficit.",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    },
+    {
+      "fact_id": "65745790bbaa0833",
+      "category": "numerical",
+      "entity": "Indian Economy",
+      "metric": "Real GDP Growth",
+      "value": "6.5%",
+      "raw_value": "6.5",
+      "context": {
+        "temporal_period": "2030",
+        "reporting_scope": null,
+        "unit": "%",
+        "accounting_standard": null
+      },
+      "evidence": {
+        "document_id": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page_number": 67,
+        "section_title": "Page 67",
+        "content_type": "text",
+        "verbatim_quote": "India: Triggered Modules Pensions Health Projection Variable Risk Indication GFN-to-GDP ratio Medium-term extrapolation Amortization-to-GDP ratio Amortization GFN-to-GDP ratio Amortization-to-GDP ratio Amortization GFN-to-GDP ratio Historical average assumptions Amortization-to-GDP ratio Amortizatio",
+        "bounding_box": null
+      },
+      "confidence_score": 0.9
+    }
+  ]
+}
