@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python Virtual Environments & Dependencies
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local Data, Knowledge Stores, and Uploads
+data/knowledge_store/*.duckdb*
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Experiment logs & generated output
+nigchad.md
+output/
+logs/
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+
+# IDEs & System files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
