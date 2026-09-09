@@ -50,9 +50,7 @@ https://github.com/user-attachments/assets/00aea928-1ff0-4db6-9758-cc2e0597747f
     <img src="https://img.shields.io/badge/Download-Raw_MP4_(15.8_MB)-blue?style=for-the-badge&logo=fastlane" alt="Direct MP4" />
   </a>
 </p>
-
-> 🎬 **Embedded Player**: Play the full walkthrough video directly above inside GitHub.  
-> 🔗 **Alternative Links**: [Watch on YouTube](https://youtu.be/L9NJwAmpSaE) | [Download MP4 from Release v0.1.0](https://github.com/Chirag-Jamariya/Fact-Knowledge-Layer/releases/tag/v0.1.0)
+  
 >
 
 ---
