@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+tests/
+*.md
+!README.md
+data/knowledge_store/*.duckdb*
+data/uploads/*
+!data/uploads/.gitkeep
