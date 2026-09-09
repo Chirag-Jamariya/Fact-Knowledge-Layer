@@ -40,23 +40,18 @@ This project delivers a **first-class Fact Knowledge Layer** that extracts, vali
 
 ## Video Demo
 
-<p align="center">
-  <video src="https://github.com/Chirag-Jamariya/Fact-Knowledge-Layer/raw/main/superjoin_2026.mp4" controls="controls" width="100%" style="max-height: 540px;">
-    <source src="superjoin_2026.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+https://github.com/user-attachments/assets/00aea928-1ff0-4db6-9758-cc2e0597747f
 
 <p align="center">
   <a href="https://youtu.be/L9NJwAmpSaE">
     <img src="https://img.shields.io/badge/YouTube-Watch_on_YouTube_(2m_28s)-red?style=for-the-badge&logo=youtube" alt="YouTube Video" />
   </a>
-  <a href="https://github.com/Chirag-Jamariya/Fact-Knowledge-Layer/raw/main/superjoin_2026.mp4">
-    <img src="https://img.shields.io/badge/Repository_Video-superjoin__2026.mp4-blue?style=for-the-badge&logo=github" alt="Repository MP4" />
+  <a href="https://github.com/Chirag-Jamariya/Fact-Knowledge-Layer/releases/download/v0.1.0/superjoin_demo.mp4">
+    <img src="https://img.shields.io/badge/Download-Raw_MP4_(15.8_MB)-blue?style=for-the-badge&logo=fastlane" alt="Direct MP4" />
   </a>
 </p>
-> 🎬 **In-Repo Walkthrough**: Playable directly above from [`superjoin_2026.mp4`](superjoin_2026.mp4).  
-> 🔗 **Alternative YouTube Link**: [https://youtu.be/L9NJwAmpSaE](https://youtu.be/L9NJwAmpSaE)
+  
+>
 
 ---
 
@@ -347,4 +342,3 @@ A core innovation in this project is the **Comparability Gate** (`src/reconcilia
 - **Reproducibility**: All starter datasets and cached fact representations are packaged and instantly loadable via the UI sidebar.
 
 ---
-
