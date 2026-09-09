@@ -170,41 +170,6 @@ docker run -d \
 
 ---
 
-### How to Host for Public Access
-
-You can deploy this containerized application to several cloud platforms:
-
-#### Option A: Streamlit Community Cloud (Zero-Cost & Instant)
-1. Push your repository to GitHub.
-2. Sign in to [share.streamlit.io](https://share.streamlit.io/).
-3. Click **New app**, select repository `Chirag-Jamariya/fact-knowledge-layer`, branch `main`, and main file path `src/ui/app.py`.
-4. In **Advanced Settings**, add `GROQ_API_KEY = "gsk_..."` under Secrets.
-5. Deploy.
-
-#### Option B: Render / Railway / Fly.io (Container Deployment)
-- **Render**:
-  1. Create a **New Web Service** connected to your GitHub repository.
-  2. Select **Docker** environment.
-  3. Under Environment Variables, set `GROQ_API_KEY` and `PORT=8501`.
-  4. Render automatically builds and hosts the Docker image.
-- **Railway**:
-  1. `railway login` followed by `railway up`.
-  2. Map port `8501` to public web domain.
-- **Fly.io**:
-  ```bash
-  fly launch --port 8501
-  fly secrets set GROQ_API_KEY="gsk_..."
-  fly deploy
-  ```
-
-#### Option C: Hugging Face Spaces
-1. Create a new Space with the **Docker** SDK.
-2. Link your GitHub repo.
-3. Add `GROQ_API_KEY` in Space Settings $\rightarrow$ Repository Secrets.
-4. Set container port to `8501`.
-
----
-
 ## Approach & Architecture
 
 ### End-to-End System Pipeline
