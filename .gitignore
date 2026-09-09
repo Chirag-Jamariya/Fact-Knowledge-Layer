@@ -16,9 +16,10 @@ build/
 dist/
 *.egg-info/
 
-# Tests & Documentation (excluded per repository requirements)
+# Tests, Documentation & Standalone Scripts
 tests/
 docs/
+scripts/
 
 # Local Data, Knowledge Stores, and Uploads
 data/knowledge_store/*.duckdb*
