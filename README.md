@@ -54,13 +54,6 @@ https://github.com/user-attachments/assets/00aea928-1ff0-4db6-9758-cc2e0597747f
 > 🎬 **Embedded Player**: Play the full walkthrough video directly above inside GitHub.  
 > 🔗 **Alternative Links**: [Watch on YouTube](https://youtu.be/L9NJwAmpSaE) | [Download MP4 from Release v0.1.0](https://github.com/Chirag-Jamariya/Fact-Knowledge-Layer/releases/tag/v0.1.0)
 >
-> The video covers:
-> 1. Ingestion and semantic fact extraction from multiple PDFs simultaneously.
-> 2. Dynamic creation of a unified logical corpus with instant sidebar registration.
-> 3. **Case 1 (Corroboration)**: Cross-document validation across corporate disclosures (e.g., INR Cr vs INR Mn normalized scale).
-> 4. **Case 2 (Genuine Contradiction)**: Flagging incompatible factual assertions on the same metric, period, and scope.
-> 5. **Case 3 (Context Reconciled)**: Automatic disambiguation of apparent contradictions caused by temporal drift, restatements, or accounting standards.
-> 6. **Case 4 (Failure Analysis & Mitigation)**: Diagnosing and mitigating extraction anomalies (table header year flattening, layout merging) with audit trails.
 
 ---
 
